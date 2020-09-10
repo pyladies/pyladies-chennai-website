@@ -1,199 +1,630 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>PyLadies</title>
-        <meta name="description" content="PyLadies">
-        <meta charset="utf-8"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Rubik|Bitter" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script>if (window.location.protocol != "https:" && window.location.host.indexOf('pyladies.com') > -1) {
-            window.location.protocol = "https";
-        }</script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-            <a class="navbar-brand" href="#pyladies">
-                <div class="med-geek"></div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+<html lang="en">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#organizers">Organizers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resources">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Connect</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <img src="images/logo.png" id="floating-logo">
-        <div class="skyline"></div>
-        <span class="aurimas"><a href="https://www.flickr.com/photos/needoptic/13939643805/in/gallery-ebarney-72157686347209143/">Aurimas</a> via Flickr Creative Commons</span>
-        <div class="container-fluid">
-            <div class="row" id="pyladies">
-                <h1 class="col-sm-12 text-center">PyLadies</h1>
-                <img src="./images/line.svg" class="hr-squiggle col-sm-12">
-                <div class="col-sm-12 col-md-3 offset-md-1">
-                    <img src="images/pylady_geek.png" class="geek" alt="pyladies-geek">
-                </div>
-                <div class="col-sm-12 col-md-7">
-                    <p>
-                        We're the [FILL CHAPTER NAME IN] chapter of PyLadies, an international mentorship group for marginalized genders, such as but not limited to non-binary people, trans people, and women in tech.
-                    </p>
-                    <p>
-                        We host monthly <a href=[FILL IN MEETUP PAGE] target="_blank">events</a>,
-                        talks, and study groups where you can meet other pythonistas and
-                        learn more about programming, data science, web development, and more.
-                    </p>
-                    <p>
-                        All skill levels welcome!
-                    </p>
-                </div>
-            </div>
-            <div class="row pink" id="events">
-                <h2 class="col-sm-12 text-center">Events</h2>
-                <img src="./images/line.svg" class="hr-squiggle col-sm-12" />
-                <div class="col-sm-12 col-md-10 offset-md-1  text-center">
-                    <p>
-                        Join our <a href=[FILL IN MEETUP PAGE] target="_blank">Meetup group</a> to
-                        hear about our free events.
-                    </p>
-                    <p>
-                        Interested in hosting us, giving a talk, or leading a workshop?
-                        We'd love to <a href="#contact">hear from you!</a>
-                    </p>
-                </div>
-            </div>
-            <div class="row" id="organizers">
-                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="organizers">
-                    <h4>Organizers</h4>
-                    <img src="./images/line.svg" class="hr-squiggle">
-                    <div class="bio-container">
-                        <div class="organizer-container"><img src="./images/bios/pylady_geek.png" class="organizer landscape" /></div>
-                        <div class="bio">
-                            <p class="name">Organizer 1</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis pulvinar lorem. Vestibulum finibus tincidunt ipsum. Fusce quis ipsum dapibus, sollicitudin enim a, hendrerit neque. Aenean dolor metus, convallis non lectus auctor, lacinia rhoncus nisi. Nullam sit amet mi nec leo elementum faucibus quis at magna. Mauris iaculis, lacus non porttitor imperdiet, leo quam tempor sapien, non ornare tellus urna faucibus justo. Proin mi dolor, maximus a neque vel, blandit tristique lorem. Sed fringilla lobortis quam vitae laoreet. Pellentesque feugiat eleifend pellentesque. Vivamus luctus interdum nunc, eu luctus velit porta at. Suspendisse blandit posuere lectus in tincidunt. Aenean felis erat, consectetur sed eros ac, semper aliquam mi. Cras a volutpat eros, eget porttitor sem. Praesent tincidunt urna vel eros viverra, id laoreet justo laoreet.
-                            </p>
-                            <p class="social-buttons">
-                                <a href="https://twitter.com/organizer1" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
-                                <a href="https://www.linkedin.com/in/organizer1/" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
-                                <a href="http://organizer1.com" target="_blank"><span class="fa fa-desktop">&nbsp;</span></a>
-                                <a href="https://github.com/organizer1" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="bio-container">
-                        <div class="organizer-container">
-                            <img src="./images/bios/pylady_geek.png" class="organizer" />
-                        </div>
-                        <div class="bio">
-                            <p class="name">Organizer 2</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis pulvinar lorem. Vestibulum finibus tincidunt ipsum. Fusce quis ipsum dapibus, sollicitudin enim a, hendrerit neque. Aenean dolor metus, convallis non lectus auctor, lacinia rhoncus nisi. Nullam sit amet mi nec leo elementum faucibus quis at magna. Mauris iaculis, lacus non porttitor imperdiet, leo quam tempor sapien, non ornare tellus urna faucibus justo. Proin mi dolor, maximus a neque vel, blandit tristique lorem. Sed fringilla lobortis quam vitae laoreet. Pellentesque feugiat eleifend pellentesque. Vivamus luctus interdum nunc, eu luctus velit porta at. Suspendisse blandit posuere lectus in tincidunt. Aenean felis erat, consectetur sed eros ac, semper aliquam mi. Cras a volutpat eros, eget porttitor sem. Praesent tincidunt urna vel eros viverra, id laoreet justo laoreet. 
-                            </p>
-                            <p class="social-buttons">
-                                <a href="https://twitter.com/organizer2" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
-                                <a href="https://www.linkedin.com/in/organizer2/" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
-                                <a href="http://organizer2.com" target="_blank"><span class="fa fa-desktop">&nbsp;</span></a>
-                                <a href="https://github.com/organizer2" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row pink" id="resources">
-                    <div class="col-sm-12 col-md-10 offset-md-1  text-center">
-                        <h4 class="col-sm-12 text-center">Resources</h4>
-                        <img src="./images/line.svg" class="hr-squiggle col-sm-12" />
-                        <div class="resource-container">
-                            <a href="https://www.python.org/psf/" target="_blank" class="resource-link">
-                                <div class="resource">
-                                    <p class="resource-title">Python Software Foundation</p>
-                                    <p> 
-                                        The Python Software Foundation is the organization behind Python! 
-                                        Become a supporter and help advance the software and mission.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-            </div>
-            <div class="row" id="about">
-                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="about">
-                    <h4>About PyLadies</h4>
-                    <img src="./images/line.svg" class="hr-squiggle">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-                    <p>
-                        PyLadies is an international mentorship group with a focus on helping more women become active
-                        participants and leaders in the Python open-source community.
-                    </p>
-                    <p>
-                        Our mission is to promote, educate and
-                        advance a diverse Python community through outreach, education, conferences, events and social
-                        gatherings.
-                    </p>
-                    <p>
-                        To learn more, visit the <a href="https://www.pyladies.com/" target="_blank">PyLadies website</a>.
-                    </p>
-                </div>
-            </div>
-            <div class="row pink">
-                <div class="col-sm-12 section text-center" id="contact">
-                    <h4>Connect</h4>
-                    <img src="./images/line.svg" class="hr-squiggle">
-                    <p>
-                        Follow us on <a href="https://twitter.com/pyladies" target="_blank">Twitter</a>
-                        or join our <a href=[FILL IN MEETUP PAGE] target="_blank">
-                        Meetup group</a> to get announcements and find out about
-                        upcoming events.
-                    </p>
-                    <p>
-                        To connect with other PyLadies members through Slack, join
-                        <a href="http://slackin.pyladies.com" target="_blank">slackin.pyladies.com</a>
-                        and sign up for the <code>[YOUR CHAPTER NAME]</code> channel.
-                    </p>
-                    <p>
-                        If you would like to give a tech talk, demo, or workshop, contact us at <a href="mailto:info@pyladies.com">info@pyladies.com</a>.
-                    </p>
-                    <p>
-                        If you would like to donate to us, you can donate on <a href="https://psfmember.org/civicrm/contribute/transact?reset=1&id=6"> page</a>! Yes, donations are to a 501c3 and are therefore tax deductible within the United States of America.
-                    </p>
-                    <p>
-                        Is your company interested in hosting an event? Fill out our
-                        <a href=FILL-IN-URL>
-                         form</a> and we will be in touch!
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <p>
-                <a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" width=100 height=35/></a>
-                <a href="https://twitter.com/pyladies" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
-                <a href="https://github.com/pyladies" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
-                <a href="http://slackin.pyladies.com" target="_blank"><span class="fa fa-slack">&nbsp;</span></a>
-                <span class="footer-title">PyLadies 2020</span>
+  <title>PyLadies Chennai | India</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <h1><a href="index.html"><img src="assets/img/favicon.png"
+              style="transform: scale(2); margin-top: 25px; margin-left: 0px;"></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block ml-auto">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#what-we-do">Events</a></li>
+          <li><a href="#team">Organizers</a></li>
+          <li><a href="#volunteers">Volunteers</a></li>
+          <li><a href="#services">Resources</a></li>
+          <li><a href="#connect">Connect</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to <span><img src="assets/img/original long logo.png" style="width: 25%;"></span></h1>
+      <h2>We are team of Pythonistas.</h2>
+      <a href="https://chat.whatsapp.com/IxZbdLBzpJoE5Be7phEIxI" class="btn-get-started scrollto">Join Us</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <a href=""><img src="assets/img/meetup.png " class="img-fluid" alt=""></a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>Who we are ?</h3>
+            <p style="text-align: left;">
+              <b>PyLadies</b> is an international mentorship group with a focus on helping women become active
+              participants and
+              leaders in the <b>Python open-source community</b>. Our mission is to promote, educate and advance a
+              diverse
+              Python community through outreach, education, meetups, conferences, events and social gatherings.
+              <br>
+              At <b>PyLadies Chennai</b>, we welcome people who have never programmed before, experienced programmers,
+              and
+              everyone in between.
             </p>
+
+          </div>
         </div>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      </div>
+
+      </div>
+    </section><!-- End About Section -->
+    <br>
+    <br>
+
+    <!-- ======= What We Do Section ======= -->
+    <section id="what-we-do" class="what-we-do" style="background:pink" style="width: 50%; height: 20%;">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Events</h2>
+          <p>We host monthly meetups where Pythonistas can learn, share and contribute towards the fields of Core
+            Python, Data
+            Science, Web Development, Scientific Computing, Security, Game Development, etc. Join our<a
+              href="https://www.meetup.com/pyladieschennai/"> Meetup group</a> to find out about upcoming events!
+          </p>
+        </div>
+
+        <!-- ======= EVENTS Section ======= -->
+
+        <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="assets/img/PyLadies Chennai Chapter Launch.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Tech Talk</h4>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="assets/img/PyLadies Chennai Hands-On!.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Hands-On</h4>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="assets/img/PyLadies Chennai01.jpeg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;"> PyLadies @ PyCon</h4>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </section><!-- End EVENTS Section -->
+
+    </section><!-- End What We Do Section -->
+
+
+
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Organizers</h2>
+
+        </div>
+      </div>
+      <div class="container portfolio" style="margin-bottom: 0;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <img src="https://image.ibb.co/cbCMvA/logo.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bio-info">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="bio-image">
+                    <img src="assets/img/team/Niharika Krishnan02.jpg" alt="image" class="img-fluid" width="300px"
+                      height="300px" style="border-radius: 10px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bio-content">
+             <a href="https://www.linkedin.com/in/niharikakrishnan"><h3 style="color: #EE264D;">Niharika Krishnan</h3></a>
+                Niharika is a Machine Learning Engineer at TCS, Chennai where she
+                develops NLP based solutions for
+                Walmart, US. She is
+                passionate about technology and believes in leveraging AI to help people lead better lives! She
+                actively contributes to
+                the Python tech community and has spoken at conferences like PyCon India'19, PyCon Canada’19,
+                PyOhio'20, etc. With her
+                love for Python and a will to encourage young women into tech, she initiated the PyLadies Chapter in
+                Chennai during her
+                final year of undergraduate studies.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container portfolio">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <img src="https://image.ibb.co/cbCMvA/logo.png" />
+            </div>
+          </div>
+        </div>
+    
+        <div class="bio-info">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="bio-image">
+                    <img src="assets/img/team/Vishakha01.jpg" alt="image" class="img-fluid" width="300px"
+                      height="300px" style="border-radius: 10px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bio-content">
+                <a href="https://www.linkedin.com/in/vishakha-tiwari-b7744b91/">
+                  <h3 style="color: #EE264D;">Vishakha Tiwari</h3>
+                </a>
+              Vishakha Tiwari is an enthusiastic and innovative software engineer in Valuelabs, India. She is passionate about
+              developing big data solutions. She has research paper and certifications in big data. She believes in giving back to the
+              community and non-profit organizations which hold a special place in her heart. She is an organizer of PyLadies Chennai
+              and Hyderabad Chapter, mentorship groups with a focus on helping more women to become active participants in Python
+              open-source community.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section><!-- End About Section -->
+
+
+
+
+
+    <!--VOLUNTEERS-->
+    <section id="volunteers">
+      <div class="section-title">
+        <h2>Volunteers</h2>
+
+
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team section-bg">
+          <div class="container" data-aos="fade-up">
+
+
+
+            <div class="row">
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img src="assets/img/team/abhishek_mishra01.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://www.linkedin.com/in/stalwartcoder/">
+                      <h4>Abhishek Mishra</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                  <div class="member-img">
+                    <img src="assets/img/team/ananya.jpeg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://mobile.twitter.com/Ananya_Iyer">
+                      <h4>Ananya Iyer</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member-img">
+                    <img src="assets/img/team/ramya.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://www.linkedin.com/in/ramya-kalyanasundaram-9a6305193">
+                      <h4>Ramya</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member-img">
+                    <img src="assets/img/team/sharmila.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://www.linkedin.com/in/sharmilas1wa">
+                      <h4>Sharmila Gopirajan</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img src="assets/img/team/Smriti01.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://www.linkedin.com/in/smriti-881a37162">
+                      <h4>Smriti</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                  <div class="member-img">
+                    <img src="assets/img/team/Swetha01.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://www.linkedin.com/in/swetha-a-b28830139/">
+                      <h4>Swetha</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member-img">
+                    <img src="assets/img/team/unnati.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://linktr.ee/Ping_Unnati">
+                      <h4>Unnati Mishra</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member-img">
+                    <img src="assets/img/team/Yashasvi Mishra01.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <a href="https://www.linkedin.com/in/yashasvi-misra-094511165/">
+                      <h4>Yashasvi Mishra</h4>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section><!-- End Team Section -->
+
+
+        <!-- End Steps Section -->
+
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+          <div class="container">
+
+            <div class="section-title">
+              <h2>Resources</h2>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="icon-box">
+                  <i class="fas fa-user"></i>
+                  <h4><a href="http://pyladies.com/">About PyLadies </a></h4>
+
+                </div>
+              </div>
+              <div class="col-md-6 mt-4 mt-lg-0">
+                <div class="icon-box">
+                  <i class="icofont-file-python"></i>
+                  <h4><a href="https://www.python.org/psf/">Python Software Foundation</a></h4>
+
+                </div>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="icon-box">
+                  <i class="icofont-train-steam"></i>
+                  <h4><a href="#">Journey of PyLadies Chennai</a></h4>
+
+                </div>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="icon-box">
+                  <i class="fab fa-github"></i>
+                  <h4><a href="https://github.com/pyladieschennai">Meetup Slides</a></h4>
+
+                </div>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="icon-box">
+                  <i class="icofont-tasks-alt"></i>
+                  <h4><a href="https://medium.com/pyladies-chennai">Tech Thursday</a></h4>
+
+                </div>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="icon-box">
+                  <i class="icofont-mega-phone"></i>
+                  <h4><a href="https://medium.com/pyladies-chennai">Saturday Shoutout</a></h4>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section><!-- End Services Section -->
+
+
+
+
+  </main><!-- End #main   (BECAUSE OF MAIN THE TWITTER TIMELINE WAS IN THE MIDDLE OF THE PAGE) -->
+
+  <!-- ======= TWITTER Section ======= -->
+  <!-- TWITTER Section -->
+
+
+  <!--   <div class="social-links" style="font-size: 1.3rem;">
+
+
+        <a href=" https://www.linkedin.com/company/pyladieschennai/"><i class="fab fa-linkedin-in"></i></a>
+        <i class="fab fa-instagram"></i>
+        <a href="https://github.com/pyladieschennai"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/pyladieschennai"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/pyladiesofchennai"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://slackin.pyladies.com"><i class="fab fa-slack-hash"></i></a>
+        <a href=" https://www.youtube.com/channel/UCAV0XpiOAu2N424b4llJdOg"> <i class="fab fa-youtube"></i></a>
+        <a href="mailto:chn@pyladies.com"><i class="fas fa-envelope-open-text"></i></a>
+
+      </div>-->
+
+
+  <!-- ======= Features Section ======= -->
+  <section id="connect"></section>
+  <section id="features" class="features">
+    <div class="container" data-aos="fade-up">
+<div class="section-title">
+  <h2>Connect</h2>
+  <p></p>
+</div>
+      <div class="row">
+        <div class="image col-lg-6">
+
+          <a class="twitter-timeline" data-width="500" data-height="500"
+            href="https://twitter.com/pyladieschennai?ref_src=twsrc%5Etfw">Tweets by pyladieschennai</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-delay="100">
+          <div class="icon-box ml-2 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+         
+            <a href=" https://www.linkedin.com/company/pyladieschennai/"><i class="fab fa-linkedin-in"></i>
+           <H4 style="color:#333;">LINKEDIN</H4></a>
+          </div>
+          <div class="icon-box ml-2" data-aos="zoom-in" data-aos-delay="150">
+                  <a href="https://github.com/pyladieschennai"><i class="fab fa-github"></i>
+          <h4 style="color:#333;">GITHUB</h4></a>
+          </div>
+          <div class="icon-box ml-2" data-aos="zoom-in" data-aos-delay="150">
+            <a href="https://twitter.com/pyladieschennai"><i class="fab fa-twitter"></i>
+           <H4 style="color:#333;">TWITTER</H4></a>
+          </div>
+          <div class="icon-box ml-2" data-aos="zoom-in" data-aos-delay="150">
+           <a href="https://www.facebook.com/pyladiesofchennai"><i class="fab fa-facebook-f"></i>
+           <H4 style="color:#333;">FACEBOOK</H4></a>
+          </div>
+          <div class="icon-box ml-2" data-aos="zoom-in" data-aos-delay="150">
+  <a href="https://slackin.pyladies.com"><i class="fab fa-slack-hash"></i>
+<H4 style="color:#333;">SLACK</H4></a>
+         
+          </div>
+          <div class="icon-box ml-2" data-aos="zoom-in" data-aos-delay="150">
+           <a href=" https://www.youtube.com/channel/UCAV0XpiOAu2N424b4llJdOg"> <i class="fab fa-youtube"></i>
+          <H4 style="color:#333;">YOUTUBE</H4></a>
+          </div>
+            <div class="icon-box ml-2" data-aos="zoom-in" data-aos-delay="150">
+        <a href="mailto:chn@pyladies.com"><i class="fas fa-envelope-open-text"></i>
+        <H4 style="color:#333;">MAIL</H4></a>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Features Section -->
+
+<!-- ======= Frequently Asked Questions Section ======= -->
+
+<section id="faq" class="">
+  <div class="container" data-aos="fade-up">
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <h3><a href="https://slackin.pyladies.com"> Join Global PyLadies on Slack</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+
+              <h3><a href="https://bit.ly/pyladieschennai-speaker">Want to give a talk/hands-on session?</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+
+              <h3><a href="https://bit.ly/pyladieschennai-volunteer">Want to volunteer at PyLadies?</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+
+              <h3><a href="http://bit.ly/pyladieschennai-host">Interested in hosting / sponsoring an
+                  event?</a>
+              </h3>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+ </section>
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+
+    <div class="footer-copyright text-center" style="background:#FFC0CB;">Made with ❤️️ by
+      <a href="#" style="font-style:italic;">  PyLadies Chennai</a>
+      <br>
+     
+
+      <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+ 
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
